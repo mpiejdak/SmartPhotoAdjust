@@ -6,6 +6,7 @@ import java.awt.*;
 import neural_networks.Perceptron;
 import ij.plugin.*;
 import ij.plugin.frame.*;
+import input.InputGenerator;
 
 public class Smart_Photo_Adjust implements PlugIn {
 
@@ -18,7 +19,7 @@ public class Smart_Photo_Adjust implements PlugIn {
 		/////
 		// find inputVector - information about unprocessed image 
 		
-		// TO DO
+		inputVector = InputGenerator.getInputVector();
 		
 		/////
 		
