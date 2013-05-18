@@ -160,7 +160,7 @@ public class Perceptron {
 		}
 		return output;
 	}
-	
+	// TEST 11
 	
 	public void printMatrix(double[][] matrix) {
 		
