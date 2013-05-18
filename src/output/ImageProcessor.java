@@ -4,7 +4,7 @@ public class ImageProcessor {
 	
 	static public void processImage(int[] processingParams){
 		
-		// TO DO
+		// TO DO 2
 		
 	}
 
